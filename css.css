@@ -1,0 +1,12 @@
+@keyframes scaleBackground {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+}
+
+.animate-scale {
+  animation: scaleBackground 3s ease-in-out infinite;
+}
